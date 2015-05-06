@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+		<title>$cotty $wag Artist Page</title>
+		<link rel="stylesheet" />
+			<style type="text/css">
+			
+				p.one {
+					font-family: 'Quicksand', sans-serif;
+    				border-style: solid;
+   			 		border-width: 100px;
+   			 		border-color: gold; 
+
+   			 	}
+
+   			 	p{
+   			 		font-size: 1.7em;
+   			 	}
+			
+				body {
+					font-family: 'Quicksand', sans-serif;
+					color: black;
+					background-color: black;
+					margin: 0px;
+				}
+				h1 {
+					
+					font-family: 'Quicksand', sans-serif;
+					margin-top: 0px;
+					}
+				.header{
+					background-image: url("DSC_0355.jpg");
+					background-size: cover;
+					position: relative;
+					height: 100%;
+					
+				}
+				.content{
+					position: relative;
+					padding-top: 50px;
+				}
+				.videos{
+					padding-top: 50px;
+					padding-bottom: 75px;
+				}
+			</style>
+	</head>
+	<body>
+	<div class="header" id="header">
+		<nav>
+	
+		<div align="center">
+			<font color="gold">
+			<font size="10">
+				<h1>Welcome To $cotty's World</h1>
+				<p>In $cotty We Trust</p>
+			</font>
+			</nav>
+		</div>
+	
+		<nav>
+		<div align="center">
+		<font size="6">
+			<a href="https://twitter.com/itsscottyswag" target="_blank">$cotty Twitter</a>
+			<a href="https://soundcloud.com/cotty-wag" target="_blank">$oundcloud</a>
+			<a href="https://instagram.com/" target="_blank">$cottygram</a>
+			<a href="" target="_blank">Tour Date$</a>
+		</font>
+		</div>
+		</nav>
+
+		
+		<div>
+			<div align="left">
+			<!-- <img src="DSC_0362.jpg" alt="Scottypic1" style="width: 250px; height: 300px"> -->
+			</div>
+			<div align="right">
+				<!-- <img src="DSC_0360.jpg" alt="scottypic2" style="width: 250px;height: 300px"> -->
+			</div>
+			<font color="gold">
+		</div>
+	</div>
+
+	<div class="videos">
+			<iframe style ="float: left;margin-left: 5%;" width="530" height="315" src="https://www.youtube.com/embed/YZRi4oNxeUo" frameborder="0" allowfullscreen></iframe>
+		
+		<div align="right">
+			<iframe style="margin-right: 5%;"width="530" height="315" src="https://www.youtube.com/embed/YZRi4oNxeUo" frameborder="0" allowfullscreen></iframe>
+		</div>	
+	<div class="content">
+		
+
+			<h1>About $cotty</h1> 
+			<img src="DSC_0355.jpg" alt="Scottypic3" style="width: 400px; height: 400px; float: left; margin-right: 2.5%;" >
+			<p>$cotty $wag is a 22 year old artist from the West Suburbs of Illernoise. He began his blossoming rap career from the age of 0; legend has it he began spitting bars the moment his came out the womb. $cotty released his first album, <i>Ballin' $cotty Pippin</i>, at the age of 9. The album's success has catapulted $cotty to the rankings of a musical prodigy, resulting in potential collaborations with the bands such as the Beatles. He is said to have written for artists such as Ludacris, Nick Cannon, Bow Wow, Adele, and many more. </p>
+
+			<img src="DSC_0354.jpg" alt="scottypic4" style="width: 250px;height: 300px; float: right; margin-left: 2.5%">
+
+		<p>He is the founding member of the $wegBegs (pronounced Swag Bags) and although he is the only current member, he plans to recruit the first million $wegBeggers by the end of the year. $cotty is also known by his aliases, The $cottsmith, $cottage Cheese, $wagMcWorthy, and Young Beastmode. </p>
+		
+			
+
+			<p>This year he plans to become a household name with the release of his cologne line $cotty $mells, along with his Sophomore album, <i>From the Trap to the Burb$</i> (due this winter). $cotty is also known for his very successful, yet underrated line of trash bags. As he always says, <i>"One's manz trash is another manz swag"</i>.  Follow $cotty's movement via all the social medias @ItsScottySwag</p>
+			</font>
+		
+		<img src="DSC_0362.jpg" alt="scottypic4" style="width: 250px;height: 300px; float: left; margin-left: 10%"></p>
+		<img src="DSC_0373.jpg" alt="scottypic4" style="width: 250px;height: 300px; float: right; margin-right: 10%"></p>
+		
+
+		
+		</div>
+	</body>
+</html>
+<script type="text/javascript">
+	$( document ).ready(function() {
+    	$('#header').css("padding-bottom", $( window ).height() *.30 + "px");
+    	console.log($( window ).height() );
+	});
+
+	$( window ).resize(function() {
+  		$('#header').css("padding-bottom", $( window ).height() * .30 + "px");
+  		console.log($( window ).height() );
+	});
+</script>
